@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} · {{ .Site.Title }}{{ end }}</title>
+<meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+{{ with .Params.canonical }}<link rel="canonical" href="{{ . }}">{{ else }}<link rel="canonical" href="{{ .Permalink }}">{{ end }}
+<meta property="og:title" content="{{ .Title }}">
+<meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+<meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
+<meta property="og:url" content="{{ .Permalink }}">
+<meta property="og:locale" content="ko_KR">
+{{ with .OutputFormats.Get "rss" }}<link rel="alternate" type="application/rss+xml" href="{{ .Permalink }}" title="{{ $.Site.Title }}">{{ end }}
+<style>
+:root{
+  --fg:#1a1a1a; --muted:#6b7280; --line:#e5e7eb; --bg:#ffffff;
+  --accent:#0f6f5c; --accent-weak:#e8f3f0; --maxw:720px;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0; color:var(--fg); background:var(--bg);
+  font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Pretendard","Noto Sans KR",system-ui,sans-serif;
+  font-size:17px; line-height:1.75; letter-spacing:-0.003em;
+}
+.wrap{max-width:var(--maxw); margin:0 auto; padding:0 20px}
+a{color:var(--accent); text-decoration:none}
+a:hover{text-decoration:underline}
+.site-header{border-bottom:1px solid var(--line); position:sticky; top:0; background:rgba(255,255,255,.92); backdrop-filter:saturate(180%) blur(8px); z-index:10}
+.site-header .wrap{display:flex; align-items:center; height:58px}
+.brand{font-weight:800; font-size:1.05rem; color:var(--fg); letter-spacing:-0.02em}
+main.wrap{padding-top:34px; padding-bottom:56px}
+/* 홈 목록 */
+.home-title{font-size:1.9rem; font-weight:800; letter-spacing:-0.03em; margin:.2em 0 .1em}
+.home-desc{color:var(--muted); margin:0 0 2rem}
+.post-list{list-style:none; margin:0; padding:0}
+.post-list li{padding:22px 0; border-bottom:1px solid var(--line)}
+.post-list li a{font-size:1.22rem; font-weight:700; color:var(--fg); letter-spacing:-0.02em; line-height:1.4}
+.post-list li a:hover{color:var(--accent); text-decoration:none}
+.post-list .excerpt{color:var(--muted); margin:.4em 0 .3em; font-size:.97rem}
+.post-list .date{color:var(--muted); font-size:.82rem; font-variant-numeric:tabular-nums}
+/* 글 */
+.post-meta{color:var(--muted); font-size:.86rem; font-variant-numeric:tabular-nums; margin:0 0 .2rem}
+.article-body h1{font-size:1.95rem; font-weight:800; line-height:1.32; letter-spacing:-0.035em; margin:.1em 0 .7em}
+.article-body h2{font-size:1.4rem; font-weight:750; letter-spacing:-0.03em; margin:2.1em 0 .6em; padding-top:.3em; border-top:1px solid var(--line)}
+.article-body h3{font-size:1.12rem; font-weight:700; letter-spacing:-0.02em; margin:1.6em 0 .4em}
+.article-body p{margin:0 0 1.1em}
+.article-body strong{font-weight:700}
+.article-body hr{border:0; border-top:1px solid var(--line); margin:2em 0}
+.article-body ul,.article-body ol{padding-left:1.3em; margin:0 0 1.1em}
+.article-body li{margin:.3em 0}
+.article-body blockquote{margin:1.2em 0; padding:.2em 1em; border-left:3px solid var(--accent); color:var(--muted)}
+/* 비교표 — 모바일 가로 스크롤 */
+.article-body .table-scroll, .article-body table{display:block; overflow-x:auto; -webkit-overflow-scrolling:touch}
+.article-body table{width:100%; border-collapse:collapse; margin:1.4em 0; font-size:.92rem; white-space:nowrap}
+.article-body th,.article-body td{padding:10px 13px; border:1px solid var(--line); text-align:left; vertical-align:top}
+.article-body thead th{background:var(--accent-weak); font-weight:700; position:sticky; left:0}
+.article-body tbody tr:nth-child(even){background:#fafafa}
+.article-body code{background:#f3f4f6; padding:.1em .35em; border-radius:4px; font-size:.9em}
+.site-footer{border-top:1px solid var(--line); padding:26px 0; color:var(--muted); font-size:.82rem}
+.site-footer p{margin:0; line-height:1.6}
+@media (max-width:480px){
+  body{font-size:16px}
+  .article-body h1{font-size:1.62rem}
+  .article-body h2{font-size:1.26rem}
+}
+</style>
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap"><a class="brand" href="{{ "/" | relURL }}">{{ .Site.Title }}</a></div>
+</header>
+<main class="wrap">
+  {{ block "main" . }}{{ end }}
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <p>© {{ now.Year }} {{ .Site.Title }} · 본 사이트의 일부 링크는 제휴(파트너스) 활동의 일환으로 수수료를 받을 수 있습니다.</p>
+  </div>
+</footer>
+</body>
+</html>

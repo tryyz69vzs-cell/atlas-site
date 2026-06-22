@@ -1,0 +1,14 @@
+{{ define "main" }}
+<h1 class="home-title">{{ .Site.Title }}</h1>
+{{ with .Site.Params.description }}<p class="home-desc">{{ . }}</p>{{ end }}
+<ul class="post-list">
+  {{ range (.Site.RegularPages.ByDate.Reverse) }}
+  <li>
+    <a href="{{ .Permalink }}">{{ .Title }}</a>
+    {{ with .Description }}<p class="excerpt">{{ . }}</p>{{ end }}
+    <span class="date">{{ .Date.Format "2006.01.02" }}</span>
+  </li>
+  {{ end }}
+</ul>
+{{ if not .Site.RegularPages }}<p class="home-desc">아직 발행된 글이 없습니다. ATLAS가 글을 push하면 여기 표시됩니다.</p>{{ end }}
+{{ end }}
