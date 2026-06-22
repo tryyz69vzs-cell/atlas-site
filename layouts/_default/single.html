@@ -1,8 +1,9 @@
 {{ define "main" }}
-<article class="post">
-  <p class="post-meta">{{ .Date.Format "2006년 1월 2일" }}{{ with .Params.author }} · {{ . }}{{ end }}</p>
-  <div class="article-body">
-    {{ .Content }}
-  </div>
+<article class="prose">
+  <p class="post-meta">
+    <span class="pill">가이드</span>
+    <span>{{ .Date.Format "2006년 1월 2일" }}{{ with .Params.author }} · {{ . }}{{ end }}</span>
+  </p>
+  {{ .Content }}
 </article>
 {{ end }}
