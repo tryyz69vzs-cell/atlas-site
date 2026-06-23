@@ -120,8 +120,12 @@ main.wrap{padding:38px 20px 64px}
 /* ── 푸터 ── */
 .site-footer{border-top:1px solid var(--line); background:var(--surface)}
 .site-footer .wrap{padding:26px 20px}
+.foot-nav{display:flex; flex-wrap:wrap; gap:8px 20px; margin-bottom:14px}
+.foot-nav a{font-size:.88rem; font-weight:600; color:var(--ink); text-decoration:none}
+.foot-nav a:hover{color:var(--brand-ink); text-decoration:underline}
 .disclosure{font-size:.82rem; color:var(--muted); line-height:1.65; margin:0}
 .disclosure b{color:var(--ink); font-weight:700}
+.disclosure a{color:var(--brand-ink)}
 .copyright{font-size:.78rem; color:var(--muted); margin:.7em 0 0}
 
 @media (max-width:480px){
@@ -151,7 +155,13 @@ main.wrap{padding:38px 20px 64px}
 </main>
 <footer class="site-footer">
   <div class="wrap">
-    <p class="disclosure"><b>고지</b> · 본 사이트의 제품 링크 일부는 제휴(파트너스) 활동의 일환으로, 구매 시 일정 수수료를 받을 수 있습니다. 제품 가격·사양은 시점에 따라 달라질 수 있으니 구매 전 판매처에서 최종 확인하시기 바랍니다.</p>
+    <nav class="foot-nav">
+      <a href="{{ "/about/" | relURL }}">소개</a>
+      <a href="{{ "/methodology/" | relURL }}">비교 방법</a>
+      <a href="{{ "/disclosure/" | relURL }}">제휴 고지</a>
+      <a href="{{ "/privacy/" | relURL }}">개인정보처리방침</a>
+    </nav>
+    <p class="disclosure"><b>고지</b> · 본 사이트의 제품 링크 일부는 제휴(파트너스) 링크이며, 구매 시 일정 수수료를 받을 수 있습니다(가격에 영향 없음). 자세한 내용은 <a href="{{ "/disclosure/" | relURL }}">제휴 고지</a>를 참고하세요.</p>
     <p class="copyright">© {{ now.Year }} {{ .Site.Title }}</p>
   </div>
 </footer>

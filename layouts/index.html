@@ -5,7 +5,7 @@
   <div class="home-rule"></div>
 </div>
 <ul class="post-list">
-  {{ range (.Site.RegularPages.ByDate.Reverse) }}
+  {{ range (where .Site.RegularPages "Type" "article").ByDate.Reverse }}
   <li class="post-card">
     <a class="tt" href="{{ .Permalink }}">{{ .Title }}</a>
     {{ with .Description }}<p class="excerpt">{{ . }}</p>{{ end }}
@@ -13,5 +13,5 @@
   </li>
   {{ end }}
 </ul>
-{{ if not .Site.RegularPages }}<p class="home-desc">아직 발행된 글이 없습니다.</p>{{ end }}
+{{ if not (where .Site.RegularPages "Type" "article") }}<p class="home-desc">아직 발행된 글이 없습니다.</p>{{ end }}
 {{ end }}
