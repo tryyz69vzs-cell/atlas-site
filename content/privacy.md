@@ -24,6 +24,6 @@ description: "본 사이트의 개인정보 수집·이용에 관한 안내."
 
 ## 문의
 
-개인정보 관련 문의: **contact@example.com**
+개인정보 관련 문의: **powernstation@gmail.com**
 
 본 방침은 법령·서비스 변경에 따라 갱신될 수 있습니다.
