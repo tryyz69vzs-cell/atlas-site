@@ -1,17 +1,62 @@
 {{ define "main" }}
-<div class="home-head">
-  <h1 class="home-title">{{ .Site.Title }}</h1>
-  {{ with .Site.Params.description }}<p class="home-desc">{{ . }}</p>{{ end }}
-  <div class="home-rule"></div>
-</div>
-<ul class="post-list">
-  {{ range (where .Site.RegularPages "Type" "article").ByDate.Reverse }}
-  <li class="post-card">
-    <a class="tt" href="{{ .Permalink }}">{{ .Title }}</a>
-    {{ with .Description }}<p class="excerpt">{{ . }}</p>{{ end }}
-    <span class="date">{{ .Date.Format "2006.01.02" }}</span>
-  </li>
+{{ $articles := (where .Site.RegularPages "Type" "article").ByDate.Reverse }}
+{{ $count := len $articles }}
+
+<section class="hero" aria-labelledby="hero-title">
+  <div class="hero__panel">
+    <p class="hero__eyebrow"><span class="tick"></span>데이터로 비교하는 파워스테이션</p>
+    <h1 class="hero__title" id="hero-title">{{ .Site.Title }}</h1>
+    {{ with .Site.Params.description }}<p class="hero__sub">{{ . }}</p>{{ end }}
+    <div class="gauge" role="img" aria-label="충전 게이지">
+      <div class="gauge__cells">
+        {{ range $i := (seq 8) }}<span class="cell{{ if eq $i 8 }} cell--charge{{ end }}" style="--i:{{ sub $i 1 }}"></span>{{ end }}
+      </div>
+      <span class="gauge__cap"></span>
+    </div>
+    <div class="hero__trust">
+      {{ if gt $count 0 }}<span class="trust">발행 가이드 <b>{{ $count }}</b>편</span>{{ end }}
+      {{ if gt $count 0 }}<span class="trust">최근 갱신 <b>{{ (index $articles 0).Date.Format "2006.01.02" }}</b></span>{{ end }}
+      <a class="trust trust--link" href="{{ "/methodology/" | relURL }}">비교 방법 →</a>
+    </div>
+  </div>
+</section>
+
+{{ if gt $count 0 }}
+  {{ $featured := index $articles 0 }}
+  {{ $rest := after 1 $articles }}
+
+  <section class="block">
+    <p class="block__label">최신 가이드</p>
+    <a class="feat" href="{{ $featured.Permalink }}">
+      <h2 class="feat__title">{{ $featured.Title }}</h2>
+      {{ with $featured.Description }}<p class="feat__desc">{{ . }}</p>{{ end }}
+      <div class="feat__meta">
+        {{ range first 3 $featured.Params.tags }}<span class="chip">{{ . }}</span>{{ end }}
+        <span class="when">{{ $featured.Date.Format "2006.01.02" }}</span>
+      </div>
+    </a>
+  </section>
+
+  {{ if gt (len $rest) 0 }}
+  <section class="block">
+    <p class="block__label">전체 가이드 <span class="block__n">{{ $count }}</span></p>
+    <ul class="guide-list">
+      {{ range $rest }}
+      <li class="guide-row">
+        <a class="guide-row__t" href="{{ .Permalink }}">{{ .Title }}</a>
+        {{ with .Description }}<p class="guide-row__d">{{ . }}</p>{{ end }}
+        <div class="guide-row__meta">
+          {{ range first 2 .Params.tags }}<span class="chip chip--sm">{{ . }}</span>{{ end }}
+          <span class="when">{{ .Date.Format "2006.01.02" }}</span>
+        </div>
+      </li>
+      {{ end }}
+    </ul>
+  </section>
   {{ end }}
-</ul>
-{{ if not (where .Site.RegularPages "Type" "article") }}<p class="home-desc">아직 발행된 글이 없습니다.</p>{{ end }}
+{{ else }}
+  <section class="block">
+    <div class="empty">첫 비교 가이드를 준비하고 있습니다.</div>
+  </section>
+{{ end }}
 {{ end }}
