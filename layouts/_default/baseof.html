@@ -31,6 +31,7 @@ body{
   margin:0; background:var(--paper); color:var(--ink);
   font-family:"Pretendard Variable",Pretendard,-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Noto Sans KR",system-ui,sans-serif;
   font-size:17px; line-height:1.75; letter-spacing:-0.004em;
+  word-break:keep-all; overflow-wrap:break-word;
   font-variant-numeric:tabular-nums; -webkit-font-smoothing:antialiased;
 }
 .wrap{max-width:var(--maxw); margin:0 auto; padding:0 20px}
@@ -72,8 +73,8 @@ main.wrap{padding:38px 20px 64px}
   position:relative; overflow:hidden; color:var(--panel-ink);
   background:radial-gradient(125% 150% at 16% -10%, #1C222A 0%, #12151B 58%, #0E1116 100%);
   border:1px solid rgba(255,255,255,.07); border-radius:24px;
-  padding:42px 32px 30px;
-  box-shadow:0 1px 0 rgba(255,255,255,.05) inset, 0 30px 70px -34px rgba(14,124,102,.5), 0 22px 48px -26px rgba(20,23,28,.55);
+  padding:40px 32px 30px;
+  box-shadow:0 1px 0 rgba(255,255,255,.06) inset, 0 -60px 80px -60px rgba(14,124,102,.35) inset, 0 34px 80px -36px rgba(14,124,102,.55), 0 22px 48px -26px rgba(20,23,28,.6);
 }
 .hero__panel::before{content:""; position:absolute; top:-45%; right:-12%; width:62%; height:130%; background:radial-gradient(circle at center, rgba(242,169,59,.17), transparent 62%); pointer-events:none}
 .hero__panel > *{position:relative}
@@ -83,13 +84,13 @@ main.wrap{padding:38px 20px 64px}
 .hero__title .hl{color:var(--charge)}
 .hero__sub{margin:.72em 0 0; max-width:32ch; color:var(--panel-muted); font-size:1.04rem; line-height:1.6}
 
-/* 충전 게이지 (시그니처) */
-.gauge{display:flex; align-items:center; gap:6px; margin:30px 0 28px}
-.gauge__cells{display:flex; gap:5px}
-.gauge .cell{width:27px; height:17px; border-radius:3px; background:rgba(255,255,255,.07); position:relative; overflow:hidden; border:1px solid rgba(255,255,255,.05)}
+/* 충전 게이지 = 배터리(브랜드 마크 확대) */
+.gauge{display:inline-flex; align-items:center; gap:5px; margin:26px 0 24px}
+.gauge__body{display:flex; align-items:center; gap:5px; padding:6px; border:2px solid rgba(255,255,255,.2); border-radius:8px; background:rgba(0,0,0,.22)}
+.gauge .cell{width:24px; height:18px; border-radius:2px; background:rgba(255,255,255,.06); position:relative; overflow:hidden}
 .gauge .cell::after{content:""; position:absolute; inset:0; border-radius:2px; background:var(--brand); box-shadow:0 0 12px rgba(14,124,102,.75); transform:scaleX(0); transform-origin:left; animation:cell-fill .5s cubic-bezier(.2,.7,.2,1) forwards; animation-delay:calc(.5s + var(--i) * .085s)}
 .gauge .cell--charge::after{background:var(--charge); box-shadow:0 0 15px rgba(242,169,59,.9)}
-.gauge__cap{width:5px; height:9px; border-radius:0 3px 3px 0; background:rgba(255,255,255,.24)}
+.gauge__cap{width:5px; height:14px; border-radius:0 3px 3px 0; background:rgba(255,255,255,.3)}
 @keyframes cell-fill{to{transform:scaleX(1)}}
 
 /* 신뢰 스트립 */
@@ -130,6 +131,21 @@ main.wrap{padding:38px 20px 64px}
 .guide-row__meta{display:flex; flex-wrap:wrap; align-items:center; gap:7px; margin-top:12px}
 
 .empty{background:var(--surface); border:1px dashed #d9d8d1; border-radius:16px; padding:36px 20px; text-align:center; color:var(--muted); font-size:.98rem}
+
+/* 신뢰 밴드 (3칸) */
+.pillars{list-style:none; margin:0; padding:0; display:grid; grid-template-columns:repeat(3,1fr); gap:12px}
+.pillar{background:var(--surface); border:1px solid var(--line); border-radius:14px; padding:18px 16px}
+.pillar__ico{width:30px; height:30px; border-radius:8px; background:var(--brand-wash); display:flex; align-items:center; justify-content:center; margin-bottom:11px}
+.pillar__ico svg{width:17px; height:17px; stroke:var(--brand-ink); fill:none; stroke-width:1.8; stroke-linecap:round; stroke-linejoin:round}
+.pillar__t{display:block; margin:0; font-size:.98rem; font-weight:750; color:var(--ink); letter-spacing:-0.02em}
+.pillar__d{margin:.35em 0 0; font-size:.85rem; line-height:1.5; color:var(--muted)}
+a.pillar__t:hover{color:var(--brand-ink); text-decoration:none}
+@media (max-width:560px){
+  .pillars{grid-template-columns:1fr}
+  .pillar{display:flex; align-items:center; gap:13px; padding:15px 16px}
+  .pillar__ico{margin-bottom:0; flex:0 0 auto}
+  .pillar__body{flex:1; min-width:0}
+}
 
 /* ── 글 ── */
 .post-meta{display:flex; align-items:center; gap:9px; color:var(--muted); font-size:.84rem; font-weight:600; margin:0 0 18px}

@@ -4,11 +4,11 @@
 
 <section class="hero" aria-labelledby="hero-title">
   <div class="hero__panel">
-    <p class="hero__eyebrow"><span class="tick"></span>데이터로 비교하는 파워스테이션</p>
-    <h1 class="hero__title" id="hero-title">{{ .Site.Title }}</h1>
-    {{ with .Site.Params.description }}<p class="hero__sub">{{ . }}</p>{{ end }}
-    <div class="gauge" role="img" aria-label="충전 게이지">
-      <div class="gauge__cells">
+    <p class="hero__eyebrow"><span class="tick"></span>데이터 기반 비교 가이드</p>
+    <h1 class="hero__title" id="hero-title"><span class="hl">숫자</span>로 끝내는 파워스테이션 선택</h1>
+    <p class="hero__sub">캠핑·차박·정전 대비까지, 용량·출력·무게를 같은 기준으로 비교했습니다.</p>
+    <div class="gauge" role="img" aria-label="완충 배터리">
+      <div class="gauge__body">
         {{ range $i := (seq 8) }}<span class="cell{{ if eq $i 8 }} cell--charge{{ end }}" style="--i:{{ sub $i 1 }}"></span>{{ end }}
       </div>
       <span class="gauge__cap"></span>
@@ -19,6 +19,26 @@
       <a class="trust trust--link" href="{{ "/methodology/" | relURL }}">비교 방법 →</a>
     </div>
   </div>
+</section>
+
+<section class="block">
+  <ul class="pillars">
+    <li class="pillar">
+      <span class="pillar__ico"><svg viewBox="0 0 24 24"><rect x="2" y="7" width="16" height="10" rx="2"/><path d="M20 10v4"/><path d="M5 12h6"/></svg></span>
+      <div class="pillar__body"><span class="pillar__t">동일 기준 비교</span>
+      <p class="pillar__d">모든 모델을 용량·출력·무게 등 같은 항목으로 나란히 정렬해 비교합니다.</p></div>
+    </li>
+    <li class="pillar">
+      <span class="pillar__ico"><svg viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/><circle cx="9" cy="7" r="2"/><circle cx="15" cy="12" r="2"/><circle cx="7" cy="17" r="2"/></svg></span>
+      <div class="pillar__body"><span class="pillar__t">핵심 사양 중심</span>
+      <p class="pillar__d">마케팅 문구는 걷어내고 구매에 실제 영향을 주는 수치만 다룹니다.</p></div>
+    </li>
+    <li class="pillar">
+      <span class="pillar__ico"><svg viewBox="0 0 24 24"><path d="M12 3l7 3v5c0 4.5-3 7.5-7 9-4-1.5-7-4.5-7-9V6z"/><path d="M9 12l2 2 4-4"/></svg></span>
+      <div class="pillar__body"><a class="pillar__t" href="{{ "/disclosure/" | relURL }}">투명한 제휴 고지</a>
+      <p class="pillar__d">제휴 링크 정책을 투명하게 공개하고 가격은 구매 전 확인을 권합니다.</p></div>
+    </li>
+  </ul>
 </section>
 
 {{ if gt $count 0 }}
