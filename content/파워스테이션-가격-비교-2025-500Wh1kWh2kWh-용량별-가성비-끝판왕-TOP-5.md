@@ -328,21 +328,3 @@ NMC 배터리에 정격 출력 1,000W. 나머지 셋이 모두 1,800W·LiFePO4�
 <button type="submit">구독</button>
 </form>
 </aside>
-
-
----
-
-## 참고자료
-
-- [ecoflow.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGe2tAIAT1BdEUdTEHrdUzFvGOehHnOvqhI0YGxTOuueqa25vJUA4cx53IEEw4k257sRWAnHqLopfg7VApivCabUyULOj-Rv_ZpwEwOe3WUAASd5oaY4i1XtQtzcbFSZ3qaVRFuxkkReoHw86FTS53eQh4WCl33gdM=){rel="sponsored nofollow noopener"}
-- [datanet.co.kr](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH8n7YeAkYgIBxC3gXDOYQhq5vIDB4cTvzGWohbNWZ23mNjYeSvMQmFa7ruzkYLiiMs_Jxf5Pos-iGs9S9XG4ulLjrpGMYdgGwmW2vhUaIkKa2nk3oi_xw9pWttcOUHVbIzbi-cowc59bzisLEc_qxk86A=){rel="sponsored nofollow noopener"}
-- [reddit.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGJsy-G5zfBdyw_ZKur5TfHL_W24cdyqHbrnt49yexfbz8Ejktit1Vmy9igpRVwvGUItKfGXEkfY9aU42xjB4cKmzvQy6xHELs_noEMWWHWooFj6xA0kSOXPG-CHSYnIAqSmF5htGeu1EV7QTqfLGXLArglZCXu9HaQA5cfbKJ0nwCgOxJx9aq2StvgP9blp_tcOaatoTvCjUgbPfO6pOe1Wxg=){rel="sponsored nofollow noopener"}
-- [ecoflow.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG6ZyBfoktBwrw1lzkibivZLM5Xf9eQiqagBZEknJCNrWXMznciopIXfyX-xSvqwz5TBK3Jmy7ZFuew4ndIivkwNGjYMX5rLMBjTpRRpYQhN0HewXVlqUEAk3uGnFv6GU2Sz_ysxw==){rel="sponsored nofollow noopener"}
-- [bluettipower.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFeMNAwangYoo_bZQd78ND7raDcG8YJcD9sRVU6VjFhf8PnkFplXHzx5_6xmkV9SEIeyfTC2Wy7p_28A_DiFISRIhzsyU4xAl0oZsBj0uC9FXoAVB43jsoRc6kpeb8BqpJZpXs936KV9JBQvSMnFYQWN7sD4-k6MJes2Qh6pvwetwncqwKxE8xw3TtAhy4=){rel="sponsored nofollow noopener"}
-- [powerbank25.co.kr](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHnksC14fO_eOrYmCS74XB1JbxdLO5EgQivSvmktoyUPcCkSsOIeESmSoCvoe8WOkmZIpFqzj6iz2qvRLgCtYi2rJew7zYqBkigz6B8EB1t8lCIHSYiUO5IACmX7cs2u7kwcu_Mhz5Zx6FCFg75mfZvZc77OLGFKE9TRhqXQJNKT3F5o7eb_hQXSamdm-y2F-ZDJX2XiB2BbBEWR7KjAYLFYqGAxptJk5Z5s9kt7tf8Y7NeB1GyntKEN0dKaQxEO956GgXPxVm6v1YTD2shjFuDh32Zd_DgSzpLX9hzTNb8g9pU415ptF4Cm7yvTGPn1yJKXMHWqm2yCy28ze1TTPGvqxQ5WQJru_zdloaX6n_DcYNwV8rEh5yeHZ0ZhhvkYxFXRNTT){rel="sponsored nofollow noopener"}
-- [ecoflow.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFsDazjwBQzLY2mk0fOTF3H5am2rOeihRf6Yw4qY6tJYAWr-A2OORggLdKUe4AjKFRzHI_xDws3ajwU0EayaO43HnSZDXgD2Gk0ZbsT0mE713Cqb9L3I4vZ0ZZjiI8ERZew7iD0FEfFoBNzL1ZMcivzwDUv7HZY7SjlMyoDyHm3JZE=){rel="sponsored nofollow noopener"}
-- [devicemart.co.kr](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFeaej7CUg0wtBcKGdjc35rkfPHGcHetouh2gjxFCEbQ28AkjUo4PFsLf0uvVWiOfL5RQAn0iLFGTwwiZvk2Sb3mzLEvXQWrFcayl7wInnB9p4oi1zTrn2ocFa1RWQoI6g8p5Kb1iYyn2A=){rel="sponsored nofollow noopener"}
-- [ecoflow.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHE0igstlxD9axj8QseuZu3bQsV0DgVYsTGoDs5tPU7JYETmlT5Iyo7XEDbfzYK6FHNCp2I1BDUyViaF-OYSXlZEaRJ25pTrfXCxSzVcA==){rel="sponsored nofollow noopener"}
-- [youtube.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG1c_zz4G2npczUe86g1ZGXeFAxDEbH3owt2kIwFYOBT_5MEPB3s1Unx43GWKc7cpY1VtD8jEtmUw_btBJKGDc5cmTifaqpVYFG0rcQKggYB0_n0rTTI4YcxglGyVyfLdu_){rel="sponsored nofollow noopener"}
-- [youtube.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGRu82PHVAE-k4m42q1HStX-bdxaqxMi9pluu_RYmBMfWehZ1TOOyd20KvNhwRJRBZRjoT1VqldFszb9B1B2hihLN1ffYuchyTgYWqPUvoJknl8ZZd57Waw2CXZqZP_8IP0){rel="sponsored nofollow noopener"}
-- [storagereview.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFRF47DieKwKjyKIsXs89-xTXkAx8NIm_6hpCIDxA3W6bmfsCroiKvMch0k7XUi5wfkUwfsVruy_F--kUobZ3E6qtWjdWpTOqPpHZ4hU8mHPcUdDrZDPqDhJo-11ZK6lvPuVPAnnAfsjf0xl7UDGunarAV-ney7soxS3YO6epF49jldGb5_JMRoOA==){rel="sponsored nofollow noopener"}

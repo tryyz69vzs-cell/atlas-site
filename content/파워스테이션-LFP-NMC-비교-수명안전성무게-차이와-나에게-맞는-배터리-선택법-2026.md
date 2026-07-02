@@ -305,21 +305,3 @@ NMC로 가야 하는 경우는 단 하나다. '매 킬로그램을 다투는 장
 <button type="submit">구독</button>
 </form>
 </aside>
-
-
----
-
-## 참고자료
-
-- [exspenditure.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHhcR-mszowzCE-4t-qyAGUn8YTrwsYX8B2eOCAUhXrJ7S2od3YR9VQp-sGjXRXMTFBG5AEN8tWADIhYpD6VrKp2jFwMu2DD5LS4Dfu087ReV1d24VhD49A9zx8pmtls4Do4wXWK6IuRm2ii_-yPOQ0IEODrwmtcILaqNdqALSlnZFk){rel="sponsored nofollow noopener"}
-- [tritekbattery.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQESCSqhSKGYKZwZfxoK7SbR6hhHMvZgBgqH3HoXxWXsXx0P2cq6hpa0Cg1_BpsADtZcDOVKqSwhs6aPAfLAP2rNzkDGzO-NTIt6u-qIqV-t01dYYYrbOsXlWR4YG1BF2YmFOkykZizVZcULKTmho0WxEp1zH-xZOt0vzdU=){rel="sponsored nofollow noopener"}
-- [szxhbattery.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEloaZgAOuG3sOK3YGATLYA-epEegM-NfzB2mNVDaa4_yoptmK92En0uOWeECcMekAkhu2uyeo7d7imSJy4zIKCjJ5EV6aYkjwhVP2OOMSNOcXImicRzpr67xOpEJQ6MrCzas052C14JuGV-oMWXvoXPUNy3F-1pS9UJDuCyFPLtvFZkvUKlJPskhroC18BM8BtWQ==){rel="sponsored nofollow noopener"}
-- [powmr.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHYlGqosoiE8dkXyyhAPS-QUlvxt0iseRGeH4z7YBN6oXGPb804a1qWSfes4mwzF9vlB0xMXLYQmgzam19SL8ugtSCmSe0y20bn1NyZLqBb9ygJjQ39u0EYnaubfCR3u1N_h7j8aKBr0PHREEBXxa2eA7uRRGuT0kW_j9i9zGasU7jnsE8YTQPUs1zLcBW1lsaiGacp1sy9vgleBgGCNZkf67mlpLS2s_Y3S8AS){rel="sponsored nofollow noopener"}
-- [lifepo4batteryshop.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHcTMrnECIntHvYJiotPQYdDuPy2pmR_WBB8kyxcnd3bDMOiOg6jw2Cjp96dsVvH_-19dQzlXNGzrj_fExKcs9hvpk1d24S6C770RQmBo6nbmtNwjvkboNyVJQDuWlRSQTiXaqbNaQJIkwxHoCnbhoWMZKuqdN2alb-sYLQsx3g4387aa69bvXPgNY=){rel="sponsored nofollow noopener"}
-- [lipowergroup.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE8bmP0nK0OiXJu-H-BG0UIGhFd53QEpz6Kq-1HBF-3QHrnCeGP_w6kzD0VIioTOmLl1XmGabrwnF7oj9lPES_10v1BU4vheSllhveQvYUbeM6UFeEqsNePFoDJA-tp6AWFgSl-QYmI2nI=){rel="sponsored nofollow noopener"}
-- [bsl-battery.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEd9Xw0OsT1z3XzMFISKsl22M1liOD4-GRdXdnRhFZvWKq6CZerOvJNZKFn3tO2tnQSxrf-Gay75fX88ukVROBpOdhYDHsHJdMSk5y2RYZhdapqk8JxXdZsEoe24iJuqQj_098lD0LTyRT1PXChqWexLLMYZhkDNuiXch3rAdi25TYbVOGs3l26MXiaMRxHxYoLAg==){rel="sponsored nofollow noopener"}
-- [evlithium.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQESS5mmbVqj7_p_ZyhVZ2Fw-D-LCa-qTgZpc6YHT7oEseHyMMamrlQdZ2qwbxlzH4cY-YNF4L0ww6UausQANP0GLSG_YjZXd0rWVaHqW2PvSKeaDbpTX4qb0Xi3oqgFIR6OneUXdC6QGfmwNCzjYbw-p531gL19vJya){rel="sponsored nofollow noopener"}
-- [electriccarscheme.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE_wJqn2Fsc1IZWpbHuIGqwRLYvoUNNE8VTcb-F_Ef6oeqVorY0joyyrTx960MPRBy_iFtvjxB7g7HWqI0CdS4LXZhOcxHIwxHJzARuu78jKUzOpOi6ZBXaaThb1fOygzXOwJ8jrDOixUKyBMQFOZsulFnnbMMesGyBGJNhphAcZeY=){rel="sponsored nofollow noopener"}
-- [sunlithenergy.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEMOUYRUNN8F0RzvAKfQ7Qry49qsBszzFgbxKQlZHkd8FUO0BpmjVVgYip6tmpP0QD7e9rwELeJZoaoxEtzWzdDlEr0MwrRFZQQrFu3iFpaTXQkYYDhgs6Uj9CNYuHokLyZfzp6GWvZdWxRy3ADWsYg){rel="sponsored nofollow noopener"}
-- [poworks.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQIVx4tmF6nmLLI0VLcXwhBNd-fU-C9ZZtxpoMvuqmNz4B_oH-hdC3gOB4AfabyTn1EhXGKP-fNCWtG_fJ0-hcWsVhe5Hp7JEtmbA5-odwL8d_8TkiwOra3N90_n80TGZapEtvKUXVEd5R1VNm37ihjXNZndvemXYg0J6GKfnwiLk=){rel="sponsored nofollow noopener"}
-- [reddit.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH1kqBlynn686H349-jtTrruLGdrtC9-mhfNfDoO18gBLd48QvtOupmMiJsPZHF27GWf8VdjRSi2dZXPCMu3UeNHlJcEbGD6cnrKK0Pn0sPxQfyDPBK0NpEJOIMo1ojSoSqThYv_lgzIuTMRLExJFSoXbVe6DGS99LYnXAFgiaek6MVXDM-FMSeTLrxajsXcMLB-evSWkvV3q6LKAk7Mt2tJaQzE_IQYHo=){rel="sponsored nofollow noopener"}

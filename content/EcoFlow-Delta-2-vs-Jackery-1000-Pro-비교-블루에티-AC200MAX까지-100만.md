@@ -320,21 +320,3 @@ Bluetti AC200MAX는 본 가이드의 검증된 제품 데이터 범위에 포함
 <button type="submit">구독</button>
 </form>
 </aside>
-
-
----
-
-## 참고자료
-
-- [ecoflow.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFzofugTK03ar7jJgTU8Rd95AXCjER3AjWnQDiIFibPN6R7HuF2qJ5pXk2qAWEf-n7M8dFNFqG3pFmul5oVS-q79WN0VaiLa_8zOUzeZXZ0SNIiXvyEKfPlln7Iqk-5r-MOTmywyk9o14vW8Cuhxs5FJdVxxw==){rel="sponsored nofollow noopener"}
-- [danawa.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGfWPziIKhz55rJUV2PXUDhIzJHxN9iHiPkfiRBy7zxziiXAImO5U4BPhjvINQrK_j3EAbwnnNPx9P9Qhtm7ZRitjKuFRk66nca6joRv2rKzsUm15Kgz3vb7RaDFqENSm2BEQ==){rel="sponsored nofollow noopener"}
-- [jackery.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGLpaMQDUkTkB1NZJ3gEBDHIomo-PLOgst__pdKLL06m9iE5V_eO9pVWZjSSflOuIyptPCDYm4pMHdiskMaoSOAYKHCDQX_zhly1EU5Lu-hqHqPwb49j-KJAu4d5o9vZbpRHIN8yW0=){rel="sponsored nofollow noopener"}
-- [danawa.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFw5ahnpHEYWt2CuqOHQzM14XRWPnxQyI7xnsRXbCxRt3wqcPR3eGV17Z3TZhfwyKVjOwiuqc-OklZAH3t7MIKpOr6kTCr_ScT5JcD3c5t8PN88e1srZFG6RQCN_We47qvKmQ==){rel="sponsored nofollow noopener"}
-- [danawa.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQER2lUkVrO0MVbtefCpT1GEbIhyGrEX3J1UYUi0UG2c86VTEmXXURxleuT9qhdiNIPlnUkKW1IeveYudrXPLXAZ8zQH4D_S5BRIfj8ncWirY59MwWy6e0QN9dYO8Ehh6Hd6){rel="sponsored nofollow noopener"}
-- [danawa.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGTT_yCSveX7M8vzUS7vS6CsZ9hGudSWE-dnMfsDRYJ3TpDTbRPAN5jgyvbBZIbSnfnPfTP1tTmOm31QCCVA1ZGzR2_C00EJrbVQgG8enCYBiVzwxklQMmbT5ZpI624vtrBHEp61BsDU8_7ecM9wCXFag8QvDyiYiHZHPDPSTvwJJA_txt0ZRyCodbQwU4SAA==){rel="sponsored nofollow noopener"}
-- [danawa.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEcwWTI9-l7Mav0_BpLfjGOEbkbwet9uTw2Vuhqmb8gQgsdNydER0sA32AOrbwl4RyvzRhAEu8_nK-c5E1YWXuJ7Kl1RSzDsZ_c1VIWUdK8n9tLvhqQVF0-aYaDhlq_4Kpv1w==){rel="sponsored nofollow noopener"}
-- [bluettipower.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHfK5DbyjKJ8E-HNmvXoW2610au5cmxITZQuEJRWf3BAz2iSu0WJZikTgiGnLg9cLG2eJS_K2KQpWhf4IcCMYe6gCfXGGZKWiiQENAUV_gBfmmaVUFSy3t-nBxqOcgnTt0=){rel="sponsored nofollow noopener"}
-- [ecoflow.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHvLdoWl-9wdbNSOlzH2zznEzNmKOt9lYx0CiKd0NRfI9C8LTsj1y4dH8dqoN-DBAB_SSLRfCtc1BlW0MA7HIhSXGAYStLSRMLBJ28wM69EzGpAnT0lTOod9mU16MZ6){rel="sponsored nofollow noopener"}
-- [danawa.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHRJeDPL1yfljzOpuEf9-jAtDoKMYO7qIOLQCRq1EwZrtuTQDTsriygNJxpXXP8vyTUPz-VJpoqNczkTtLd5guxWXQP5npiDB1cu8-9ektJ5cLMnSbz2BKogg3KO6JzPHrLzJ4uLBcrqMGSxgwo){rel="sponsored nofollow noopener"}
-- [jackery.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHc4m1b0rbYHMljb_3M_eLs3lE8Vql6DObkEhzm6YyfV2b0ccsOlesDdwxyqkQ68REjAx-XeVsSRDv5civyZWnObeL6zIeg-QwpYoiwzNeqwI8iSC3xCypkOqat4DGA-2VsNCA5jhY=){rel="sponsored nofollow noopener"}
-- [segye.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHgpCEv4mdKbhbSQeVckFBvWzkZPEFvSS1j1O7-O3mh1qnmUUYLz6--A7RHpf-P5WsyewPzrGFxStfYIQw8O5bYCG8pZX3JpyJC6a8NAFVp4aIbDcap-4d4od6CeCrzuLYTS5Q=){rel="sponsored nofollow noopener"}
