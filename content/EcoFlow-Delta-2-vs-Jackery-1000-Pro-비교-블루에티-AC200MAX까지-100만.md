@@ -6,7 +6,7 @@ slug: "EcoFlow-Delta-2-vs-Jackery-1000-Pro-비교-블루에티-AC200MAX까지-10
 canonical: "https://atlas-site-4ho.pages.dev/EcoFlow-Delta-2-vs-Jackery-1000-Pro-비교-블루에티-AC200MAX까지-100만/"
 type: "article"
 author: "리뷰왕"
-draft: false
+draft: true
 tags: ["재난", "대비", "가정용", "백업", "전원"]
 ---
 <script type="application/ld+json">
