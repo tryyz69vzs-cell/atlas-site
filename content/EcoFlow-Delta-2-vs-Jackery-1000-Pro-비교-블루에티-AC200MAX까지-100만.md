@@ -3,7 +3,7 @@ title: "EcoFlow Delta 2 vs Jackery 1000 Pro 비교: 블루에티 AC200MAX까지,
 date: 2026-06-22T06:08:50
 description: "결론부터 말한다. 대다수의 캠퍼·차박러에게는 EcoFlow Delta 2(999,000원)가 가장 합리적인 선택이다. 1,024Wh 용량에 정격 1,800W 출력, LiFePO4 배터리를 이 가격에 담았다. Jackery 1000 Pro(899,000원)는 11.5kg의 휴대성"
 slug: "EcoFlow-Delta-2-vs-Jackery-1000-Pro-비교-블루에티-AC200MAX까지-100만"
-canonical: "https://atlas-site-4ho.pages.dev/EcoFlow-Delta-2-vs-Jackery-1000-Pro-비교-블루에티-AC200MAX까지-100만/"
+canonical: "https://powerstation-guide.com/EcoFlow-Delta-2-vs-Jackery-1000-Pro-비교-블루에티-AC200MAX까지-100만/"
 type: "article"
 author: "리뷰왕"
 draft: true
@@ -23,7 +23,7 @@ tags: ["재난", "대비", "가정용", "백업", "전원"]
   },
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://atlas-site-4ho.pages.dev/EcoFlow-Delta-2-vs-Jackery-1000-Pro-비교-블루에티-AC200MAX까지-100만/"
+    "@id": "https://powerstation-guide.com/EcoFlow-Delta-2-vs-Jackery-1000-Pro-비교-블루에티-AC200MAX까지-100만/"
   }
 }
 </script>
@@ -36,13 +36,13 @@ tags: ["재난", "대비", "가정용", "백업", "전원"]
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://atlas-site-4ho.pages.dev"
+      "item": "https://powerstation-guide.com"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "EcoFlow Delta 2 vs Jackery 1000 Pro 비교: 블루에티 AC200MAX까지, 100만 원대 파워뱅크 3종 핵심 차이 총정리",
-      "item": "https://atlas-site-4ho.pages.dev/EcoFlow-Delta-2-vs-Jackery-1000-Pro-비교-블루에티-AC200MAX까지-100만/"
+      "item": "https://powerstation-guide.com/EcoFlow-Delta-2-vs-Jackery-1000-Pro-비교-블루에티-AC200MAX까지-100만/"
     }
   ]
 }
